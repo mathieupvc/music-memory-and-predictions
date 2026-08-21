@@ -19,4 +19,4 @@ python scripts/figure_2.py
 For details on PolyRNN (panels C and D), see https://doi.org/10.1101/2024.11.27.625704
 
 ## Brain visualizations (not implemented yet)
-Brain panels use a different MNE version and are thus available in the standalone notebook.
+Brain panels use a different MNE installation (for 3d plotting).
