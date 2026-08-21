@@ -7,22 +7,13 @@ git clone https://github.com/mathieupvc/music-memory-and-predictions.git
 cd music-memory-and-predictions
 conda env create -f environment.yml
 ~~~
-
-## Data
-You can download the data here: TODO link to zenodo
+Download the data [(see data folder)](data/README.md)
 
 ## Use
 ~~~
 conda activate memo_pred
 python scripts/figure_2.py
 ~~~
-
-## Data description
-behavior.csv: only trials that have 2 presentations.
-behavior_all_trials.csv: all trials, even ones that are presented only once.
-rms: data for the neural activity contrast analysis
-rms_ma: neural activity contrasts over time
-similarity_separability: neural pattern similarity and separability
 
 ## Figure 1
 For details on PolyRNN (panels C and D), see https://doi.org/10.1101/2024.11.27.625704
