@@ -7,7 +7,7 @@ git clone https://github.com/mathieupvc/music-memory-and-predictions.git
 cd music-memory-and-predictions
 conda env create -f environment.yml
 ~~~
-Download the data [(see data folder)](data/README.md)
+Download the data [(see data folder)](data/)
 
 ## Use
 ~~~
